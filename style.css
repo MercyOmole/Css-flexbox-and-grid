@@ -81,15 +81,15 @@ main {
 
 .cars {
     height:50vh;
-    width: 100vw;
 }
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    padding: 2em ;
+    padding: 1em 2em 1em;
     margin: 1em 0 1em;
+    width: 100%;
 }
 
 .sedans h1 {
@@ -99,13 +99,16 @@ main {
 
 .sedans p {
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 0 1em 4em;
+    font-size: 15px;
+    padding: 0 0 4em;
+    width: 100%;
 }
 
 .suvs {
     background-color: hsl(184, 100%, 22%);
     margin: 1em 0 1em;
-    padding: 2em;
+    padding: 1em 2em 1em;
+    width: 100%;
 }
 
 .suvs h1 {
@@ -115,7 +118,9 @@ main {
 
 .suvs p {
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 0 1em 4em;
+    font-size: 15px;
+    padding: 0 0 4em;
+    width: 100%;
 }
 
 .luxury {
@@ -123,7 +128,8 @@ main {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     margin: 1em 0 1em;
-    padding: 2em;
+    padding: 1em 2em 1em;
+    width: 100%;
 }
 
 .luxury h1 {
@@ -133,5 +139,25 @@ main {
 
 .luxury p {
     color: hsla(0, 0%, 100%, 0.75);
-    padding: 0 1em 4em;
+    font-size: 15px;
+    padding: 0 0 4em;
+    width: 100%;
+}
+
+button {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn-sedan {
+    margin: 1px 8px 1px 2px;
+}
+
+.btn-suv {
+    margin: 1px 4px 4px 0;
+}
+
+.btn-luxury {
+    margin: 1px 4px 0 0;
 }
